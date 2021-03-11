@@ -103,7 +103,7 @@ holdBtn.addEventListener('click', function(){
 
 newGameBtn.addEventListener('click', function(){
     holdBtn.classList.remove('hidden');
-    visDice.classList.remove('hidden'); 
+    visDice.classList.add('hidden'); 
     diceRoll.classList.remove('hidden');
 
 
